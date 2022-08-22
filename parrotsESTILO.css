@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+    
+}
+
+.div-mae{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    letter-spacing: -0.004em;
+    color: red;
+    padding-top: 40px;
+    max-width: 60%;
+    
+}
+
+.cartas-mae{
+    padding-top: 47px;
+    max-width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+  img{
+    width: 200px;
+    height: 250px;
+  }
+
+  .face {
+    width: 100%;
+    height: 100%;
+    background-color: #A7E9AF;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all .5s;
+    transform-style: preserve-3d;
+  }
+
+  .back-face {
+    transform: rotateY(180deg);
+  }
+
+  .front-face{
+    transform: rotateY(-180deg);
+  }
+
+
+  .frente{
+    position: absolute;
+    z-index: 10;
+  }
+
+  .sumiço{
+    display: none !important;
+  }
+
+  .cartinhas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    max-width: 80%;
+  }
+
+  li{
+    background-color: blueviolet;
+    margin-right: 25px;
+    border-radius: 25%;
+  }
+
+
+
+  
+  
+
+  
